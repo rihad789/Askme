@@ -1,0 +1,363 @@
+﻿@model QBD.Models.questions
+@{
+   ViewBag.Title = "Questions";
+}
+
+@if (ViewBag.questionID == null)
+{
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+
+                <div id="desktop">
+                    <h4 class="text-center">Question Category</h4>
+
+                    @foreach (var item in ViewBag.category_list)
+                    {
+                        <div class="well-sm">
+                            <a href="~/Home/category?categoryID=@item.CategoryID">@item.CategoryID.@item.CategoryName</a>
+                        </div>
+                    }
+
+                </div>
+
+                <div id="mobile">
+                    <div class="text-center head_topic">
+                        <p class="topic_text">Question Category</p>
+                    </div>
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown" role="button" aria-expanded="false">Software Category</a>
+                            <ul class="dropdown-menu" role="menu">
+
+                                @foreach (var item in ViewBag.category_list)
+                                {
+                                    <li> <a href="~/Home/category?categoryID=@item.CategoryID">@item.CategoryID.@item.CategoryName</a> </li>
+                                }
+
+                            </ul>
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="text-center head_topic">
+                    <p class="topic_text">Questions</p>
+                </div>
+                <div id="questions">
+
+                    @if (Model != null)
+                    {
+                        if (Model.questions_list.Count > 0)
+                        {
+                            foreach (var item in Model.questions_list)
+                            {
+                    <div>
+                        <p style="color:#0077D6">@Html.DisplayFor(m => item.userName)</p>
+                        <p><a href="~/Home/questions?questionID=@Html.DisplayFor(m => item.QuestionID)">@Html.DisplayFor(m => item.Question)</a></p>
+                        <div style="width:300px">
+                            <a class="disabled">@Html.DisplayFor(m => item.answer_count) Answer</a>
+                            <a class="disabled">@Html.DisplayFor(m => item.follow) Follow</a>
+                        </div>
+                        <hr />
+                    </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center head_topic">
+                    <p class="topic_text">Popular Tags</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+else
+{
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-2">
+                <div id="desktop">
+                    <h4 class="text-center">Question Category</h4>
+
+                    @foreach (var item in ViewBag.category_list)
+                    {
+                        <div class="well-sm">
+                            <a href="~/Home/category?categoryID=@item.CategoryID">@item.CategoryID.@item.CategoryName</a>
+                        </div>
+                    }
+
+
+                </div>
+
+                <div id="mobile">
+                    <div class="text-center head_topic">
+                        <p class="topic_text">Question Category</p>
+                    </div>
+
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown" role="button" aria-expanded="false">Select Category</a>
+                            <ul class="dropdown-menu" role="menu">
+
+                                @foreach (var item in ViewBag.category_list)
+                                {
+                                    <li> <a href="~/Home/category?categoryID=@item.CategoryID">@item.CategoryID.@item.CategoryName</a> </li>
+                                }
+
+                            </ul>
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="text-center head_topic">
+                    <p class="topic_text">Questions</p>
+                </div>
+
+                <div id="questions">
+
+                    @if (Model != null)
+                    {
+                        if (Model.questions_list.Count > 0)
+                        {
+                            foreach (var item in Model.questions_list)
+                            {
+                    <div>
+                        <p style="color:#0077D6">@Html.DisplayFor(m => item.userName)</p>
+                        <p><a href="~/Home/questions?questionID=@Html.DisplayFor(m => item.QuestionID)">@Html.DisplayFor(m => item.Question)</a></p>
+                        <div style="width:300px">
+
+                            <a class="disabled">@Html.DisplayFor(m => item.answer_count) Answer</a>
+                            <a id="follow_btn">@Html.DisplayFor(m => item.follow) Follow</a>
+
+
+                        </div>
+                        <hr />
+                    </div>
+                            }
+                        }
+                    }
+                </div>
+
+                <div class="text-center head_topic">
+                    <p class="topic_text">Answers</p>
+                </div>
+
+                <div id="questions">
+
+                    @if (Model != null)
+                    {
+                        if (Model.answer_list.Count > 0)
+                        {
+                            
+                            foreach (var item in Model.answer_list)
+                            {
+                                
+                            <div >
+                                <p style="color:#0077D6">@Html.DisplayFor(m => item.userName)</p>
+                                @Html.Raw(item.Answer)
+                                <hr />
+                            </div>
+                            }
+                        }
+
+                        else
+                        {
+                            <p>No Answer yet</p>
+                        }
+                    }
+                </div>
+
+                <div>
+
+                    @if (@Session["userID"] == null)
+                    {
+                        <div class="text-center head_topic">
+                            <p class="topic_text">Submit your answer</p>
+                        </div>
+                        <h4>You must be logged in to submit answer</h4>
+                    }
+                    else
+                    {
+                        <div class="text-center head_topic">
+                            <p class="topic_text">Submit your answer</p>
+                        </div>
+                        <form id="ask_question_form">
+
+                            <div class="form-group">
+                                
+                                <textarea rows="8" type="text" class="form-control" maxlength="3999" placeholder="Submit your answer" style="max-width:80% !important;" id="answer_text"></textarea>
+                                <div class="result">0 / 4000 chars</div>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" id="clearBtn" class="btn btn-primary ">
+                                    Clear
+                                </button>
+                                <button type="button" id="submitBtn" class="btn btn-success">
+                                    <span class="glyphicon glyphicon-edit">
+                                        Submit
+                                    </span>
+                                </button>
+
+                            </div>
+                        </form>
+                    }
+
+
+                    <script type="text/javascript" src="~/Scripts/jquery-3.3.1.min.js"></script>
+                    <script>
+
+                        $(document).ready(function () {
+
+                            $("#follow_btn").click(function () {
+
+                                var questionID = "@ViewBag.questionID";
+                                var userID = "@Session["userID"]";
+
+                            $.ajax({
+                                    type: "POST",
+                                    url: "/Home/follow_questions",
+                                    data: {
+                                        userID: userID,
+                                        questionID: questionID
+                                    },
+                                    success: function (response) {
+                                        alert(response);
+                                    },
+                                    complete: function () {
+                                        setInterval(location.reload());
+                                    }
+
+                                })
+                            });
+
+
+                        $('textarea#answer_text').on('keyup', function () {
+                                var charCount = $(this).val().length;
+                                $(".result").text(charCount + "/ 4000 chars");
+                            });
+
+
+                        $("#submitBtn").click(function () {
+
+                            if (!$("#answer_text").val()) {
+                                alert("Please write down some answer");
+                            }
+                            else {
+                                    post_answer();
+                            }
+
+                        });
+
+                        function post_answer() {
+
+                            var answer_text = $("#answer_text").val();
+                            var userID = "@Session["userID"]";
+                            var questionID = "@ViewBag.questionID";
+
+                            $.ajax({
+
+                                type: "POST",
+                                url: "/Home/answer_questions",
+                                data: {
+                                    answer_text: answer_text,
+                                    userID: userID,
+                                    questionID: questionID
+                                },
+                                success: function (response) {
+                                    alert(response);
+
+                                },
+                                complete: function () {
+                                    $("#answer_text").val('');
+
+                                    setInterval(location.reload());
+                                }
+
+                            });
+
+                        }
+
+
+                        $("#clearBtn").click(function () {
+                            $("#answer_text").val('');
+                            $(".result").text("0 / 4000 chars");
+                        })
+
+                    })
+
+                    </script>
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="text-center head_topic">
+                    <p class="topic_text">Related Category</p>
+                </div>
+
+                <div id="questions">
+
+                    @if (Model != null)
+                    {
+                        if (Model.questions_list2.Count > 0)
+                        {
+                            foreach (var item in Model.questions_list2)
+                            {
+                                <div>
+                                    <p style="color:#0077D6">@Html.DisplayFor(m => item.userName)</p>
+                                    <p><a href="~/Home/questions?questionID=@Html.DisplayFor(m => item.QuestionID)">@Html.DisplayFor(m => item.Question)</a></p>
+                                    <div style="width:300px">
+                                        <a class="disabled">@Html.DisplayFor(m => item.answer_count) Answer</a>
+                                        <a class="disabled">@Html.DisplayFor(m => item.follow) Follow</a>
+                                    </div>
+                                    <hr />
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div>
+                                <p style="color:#0077D6">No Related Question Found</p>
+ 
+                            </div>
+                        }
+                    }
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+}
+

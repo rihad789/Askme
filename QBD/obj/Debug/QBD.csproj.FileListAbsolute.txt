@@ -1,0 +1,315 @@
+C:\Users\rihad\source\repos\QBD\QBD\bin\QBD.dll.config
+C:\Users\rihad\source\repos\QBD\QBD\bin\QBD.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\QBD.pdb
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\csc.exe
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\csc.exe.config
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\csc.rsp
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\csi.exe
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\csi.exe.config
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\csi.rsp
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.AppContext.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Console.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.IO.Compression.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.IO.Pipes.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Security.Claims.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.ValueTuple.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\vbc.exe
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\vbc.exe.config
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\vbc.rsp
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\VBCSCompiler.exe
+C:\Users\rihad\source\repos\QBD\QBD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rihad\source\repos\QBD\QBD\bin\Antlr3.Runtime.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\Newtonsoft.Json.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Helpers.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Mvc.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Optimization.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Razor.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.WebPages.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.WebPages.Razor.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\WebGrease.dll
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Helpers.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Mvc.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Optimization.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.Razor.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.WebPages.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\System.Web.WebPages.Razor.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\Newtonsoft.Json.xml
+C:\Users\rihad\source\repos\QBD\QBD\bin\Antlr3.Runtime.pdb
+C:\Users\rihad\source\repos\QBD\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rihad\source\repos\QBD\QBD\obj\Debug\QBD.csprojAssemblyReference.cache
+C:\Users\rihad\source\repos\QBD\QBD\obj\Debug\QBD.csproj.CoreCompileInputs.cache
+C:\Users\rihad\source\repos\QBD\QBD\obj\Debug\QBD.csproj.CopyComplete
+C:\Users\rihad\source\repos\QBD\QBD\obj\Debug\QBD.dll
+C:\Users\rihad\source\repos\QBD\QBD\obj\Debug\QBD.pdb
+N:\Project\QBD\QBD\bin\QBD.dll.config
+N:\Project\QBD\QBD\bin\QBD.dll
+N:\Project\QBD\QBD\bin\QBD.pdb
+N:\Project\QBD\QBD\bin\roslyn\csc.exe
+N:\Project\QBD\QBD\bin\roslyn\csc.exe.config
+N:\Project\QBD\QBD\bin\roslyn\csc.rsp
+N:\Project\QBD\QBD\bin\roslyn\csi.exe
+N:\Project\QBD\QBD\bin\roslyn\csi.exe.config
+N:\Project\QBD\QBD\bin\roslyn\csi.rsp
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.CSharp.Core.targets
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.Managed.Core.targets
+N:\Project\QBD\QBD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+N:\Project\QBD\QBD\bin\roslyn\System.AppContext.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Collections.Immutable.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Console.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Diagnostics.StackTrace.dll
+N:\Project\QBD\QBD\bin\roslyn\System.IO.Compression.dll
+N:\Project\QBD\QBD\bin\roslyn\System.IO.FileSystem.dll
+N:\Project\QBD\QBD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+N:\Project\QBD\QBD\bin\roslyn\System.IO.Pipes.AccessControl.dll
+N:\Project\QBD\QBD\bin\roslyn\System.IO.Pipes.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Reflection.Metadata.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Security.AccessControl.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Security.Claims.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Security.Principal.Windows.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Text.Encoding.CodePages.dll
+N:\Project\QBD\QBD\bin\roslyn\System.ValueTuple.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Xml.ReaderWriter.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Xml.XmlDocument.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Xml.XPath.dll
+N:\Project\QBD\QBD\bin\roslyn\System.Xml.XPath.XDocument.dll
+N:\Project\QBD\QBD\bin\roslyn\vbc.exe
+N:\Project\QBD\QBD\bin\roslyn\vbc.exe.config
+N:\Project\QBD\QBD\bin\roslyn\vbc.rsp
+N:\Project\QBD\QBD\bin\roslyn\VBCSCompiler.exe
+N:\Project\QBD\QBD\bin\roslyn\VBCSCompiler.exe.config
+N:\Project\QBD\QBD\bin\Antlr3.Runtime.dll
+N:\Project\QBD\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+N:\Project\QBD\QBD\bin\Microsoft.Web.Infrastructure.dll
+N:\Project\QBD\QBD\bin\Newtonsoft.Json.dll
+N:\Project\QBD\QBD\bin\System.Web.Helpers.dll
+N:\Project\QBD\QBD\bin\System.Web.Mvc.dll
+N:\Project\QBD\QBD\bin\System.Web.Optimization.dll
+N:\Project\QBD\QBD\bin\System.Web.Razor.dll
+N:\Project\QBD\QBD\bin\System.Web.WebPages.Deployment.dll
+N:\Project\QBD\QBD\bin\System.Web.WebPages.dll
+N:\Project\QBD\QBD\bin\System.Web.WebPages.Razor.dll
+N:\Project\QBD\QBD\bin\WebGrease.dll
+N:\Project\QBD\QBD\bin\System.Web.Helpers.xml
+N:\Project\QBD\QBD\bin\System.Web.Mvc.xml
+N:\Project\QBD\QBD\bin\System.Web.Optimization.xml
+N:\Project\QBD\QBD\bin\System.Web.Razor.xml
+N:\Project\QBD\QBD\bin\System.Web.WebPages.xml
+N:\Project\QBD\QBD\bin\System.Web.WebPages.Deployment.xml
+N:\Project\QBD\QBD\bin\System.Web.WebPages.Razor.xml
+N:\Project\QBD\QBD\bin\Newtonsoft.Json.xml
+N:\Project\QBD\QBD\bin\Antlr3.Runtime.pdb
+N:\Project\QBD\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+N:\Project\QBD\QBD\obj\Debug\QBD.csprojAssemblyReference.cache
+N:\Project\QBD\QBD\obj\Debug\QBD.csproj.CoreCompileInputs.cache
+N:\Project\QBD\QBD\obj\Debug\QBD.csproj.CopyComplete
+N:\Project\QBD\QBD\obj\Debug\QBD.dll
+N:\Project\QBD\QBD\obj\Debug\QBD.pdb
+M:\Project\QBD\QBD\bin\QBD.dll.config
+M:\Project\QBD\QBD\bin\QBD.dll
+M:\Project\QBD\QBD\bin\QBD.pdb
+M:\Project\QBD\QBD\bin\roslyn\csc.exe
+M:\Project\QBD\QBD\bin\roslyn\csc.exe.config
+M:\Project\QBD\QBD\bin\roslyn\csc.rsp
+M:\Project\QBD\QBD\bin\roslyn\csi.exe
+M:\Project\QBD\QBD\bin\roslyn\csi.exe.config
+M:\Project\QBD\QBD\bin\roslyn\csi.rsp
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.CSharp.Core.targets
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.Managed.Core.targets
+M:\Project\QBD\QBD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+M:\Project\QBD\QBD\bin\roslyn\System.AppContext.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Collections.Immutable.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Console.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Diagnostics.StackTrace.dll
+M:\Project\QBD\QBD\bin\roslyn\System.IO.Compression.dll
+M:\Project\QBD\QBD\bin\roslyn\System.IO.FileSystem.dll
+M:\Project\QBD\QBD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+M:\Project\QBD\QBD\bin\roslyn\System.IO.Pipes.AccessControl.dll
+M:\Project\QBD\QBD\bin\roslyn\System.IO.Pipes.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Reflection.Metadata.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Security.AccessControl.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Security.Claims.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Security.Principal.Windows.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Text.Encoding.CodePages.dll
+M:\Project\QBD\QBD\bin\roslyn\System.ValueTuple.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Xml.ReaderWriter.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Xml.XmlDocument.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Xml.XPath.dll
+M:\Project\QBD\QBD\bin\roslyn\System.Xml.XPath.XDocument.dll
+M:\Project\QBD\QBD\bin\roslyn\vbc.exe
+M:\Project\QBD\QBD\bin\roslyn\vbc.exe.config
+M:\Project\QBD\QBD\bin\roslyn\vbc.rsp
+M:\Project\QBD\QBD\bin\roslyn\VBCSCompiler.exe
+M:\Project\QBD\QBD\bin\roslyn\VBCSCompiler.exe.config
+M:\Project\QBD\QBD\bin\Antlr3.Runtime.dll
+M:\Project\QBD\QBD\bin\EntityFramework.dll
+M:\Project\QBD\QBD\bin\EntityFramework.SqlServer.dll
+M:\Project\QBD\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\Project\QBD\QBD\bin\Microsoft.Web.Infrastructure.dll
+M:\Project\QBD\QBD\bin\Newtonsoft.Json.dll
+M:\Project\QBD\QBD\bin\System.Web.Helpers.dll
+M:\Project\QBD\QBD\bin\System.Web.Mvc.dll
+M:\Project\QBD\QBD\bin\System.Web.Optimization.dll
+M:\Project\QBD\QBD\bin\System.Web.Razor.dll
+M:\Project\QBD\QBD\bin\System.Web.WebPages.Deployment.dll
+M:\Project\QBD\QBD\bin\System.Web.WebPages.dll
+M:\Project\QBD\QBD\bin\System.Web.WebPages.Razor.dll
+M:\Project\QBD\QBD\bin\WebGrease.dll
+M:\Project\QBD\QBD\bin\EntityFramework.xml
+M:\Project\QBD\QBD\bin\EntityFramework.SqlServer.xml
+M:\Project\QBD\QBD\bin\System.Web.Helpers.xml
+M:\Project\QBD\QBD\bin\System.Web.Mvc.xml
+M:\Project\QBD\QBD\bin\System.Web.Optimization.xml
+M:\Project\QBD\QBD\bin\System.Web.Razor.xml
+M:\Project\QBD\QBD\bin\System.Web.WebPages.xml
+M:\Project\QBD\QBD\bin\System.Web.WebPages.Deployment.xml
+M:\Project\QBD\QBD\bin\System.Web.WebPages.Razor.xml
+M:\Project\QBD\QBD\bin\Newtonsoft.Json.xml
+M:\Project\QBD\QBD\bin\Antlr3.Runtime.pdb
+M:\Project\QBD\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\Project\QBD\QBD\obj\Debug\QBD.csproj.CoreCompileInputs.cache
+M:\Project\QBD\QBD\obj\Debug\QBD.csproj.CopyComplete
+M:\Project\QBD\QBD\obj\Debug\QBD.dll
+M:\Project\QBD\QBD\obj\Debug\QBD.pdb
+M:\Project\QBD\QBD\obj\Debug\QBD.csprojAssemblyReference.cache
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\QBD.dll.config
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\QBD.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\QBD.pdb
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\csc.exe
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\csc.exe.config
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\csc.rsp
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\csi.exe
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\csi.exe.config
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\csi.rsp
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.CodeAnalysis.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.CSharp.Core.targets
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.Managed.Core.targets
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\Microsoft.Win32.Primitives.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.AppContext.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Collections.Immutable.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Console.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Diagnostics.StackTrace.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Globalization.Calendars.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.IO.Compression.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.IO.Compression.ZipFile.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.IO.FileSystem.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Net.Http.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Net.Sockets.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Reflection.Metadata.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Text.Encoding.CodePages.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.ValueTuple.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Xml.ReaderWriter.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Xml.XmlDocument.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Xml.XPath.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\System.Xml.XPath.XDocument.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\vbc.exe
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\vbc.exe.config
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\vbc.rsp
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\VBCSCompiler.exe
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\roslyn\VBCSCompiler.exe.config
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\Antlr3.Runtime.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\EntityFramework.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\EntityFramework.SqlServer.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\Microsoft.Web.Infrastructure.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\Newtonsoft.Json.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Helpers.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Mvc.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Optimization.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Razor.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.WebPages.Deployment.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.WebPages.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.WebPages.Razor.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\WebGrease.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\EntityFramework.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\EntityFramework.SqlServer.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\Newtonsoft.Json.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Helpers.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Mvc.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Razor.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.WebPages.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.WebPages.Deployment.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.WebPages.Razor.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\System.Web.Optimization.xml
+M:\Mushfiq Sir Project\QAQOnline\QBD\bin\Antlr3.Runtime.pdb
+M:\Mushfiq Sir Project\QAQOnline\QBD\obj\Debug\QBD.csproj.CoreCompileInputs.cache
+M:\Mushfiq Sir Project\QAQOnline\QBD\obj\Debug\QBD.csproj.CopyComplete
+M:\Mushfiq Sir Project\QAQOnline\QBD\obj\Debug\QBD.dll
+M:\Mushfiq Sir Project\QAQOnline\QBD\obj\Debug\QBD.pdb
+M:\Mushfiq Sir Project\QAQOnline\QBD\obj\Debug\QBD.csprojAssemblyReference.cache

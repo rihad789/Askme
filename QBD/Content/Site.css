@@ -1,0 +1,138 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+
+.sign_up_btn {
+    width: 265.12px;
+    height: 36.61px;
+    background-color: #0196FF;
+}
+
+.form {
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 470px;
+    width: 314.08px;
+    margin-top: 21px;
+    padding: 26px
+}
+
+.form_login {
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 330px;
+    width: 314.08px;
+    margin-top: 21px;
+    padding: 26px
+}
+
+.label {
+    font-size: 15px;
+    color: black;
+}
+
+.terms {
+    font-size: 11px;
+}
+
+.password_alert {
+    font-size: 10px;
+    font-family: Myriad Pro;
+}
+
+
+.f_input {
+    width: 264.67px;
+    border: 1px solid black;
+}
+
+a {
+    color: blue;
+}
+
+.signup_c {
+    padding-top: 40px;
+}
+
+.div1 {
+    margin-top: 30%;
+    margin-left: 40%;
+}
+#mobile {
+    display: none;
+}
+
+@media (max-width : 768px) {
+    .signup_c {
+        padding-top: 0px;
+    }
+    #mobile {
+        display:block;
+        visibility:visible;
+    }
+    #desktop{
+        display:none;
+    }
+
+    .div1 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+a {
+    color: black;
+    margin-right: 10px;
+}
+
+    a:hover {
+        color: deepskyblue;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+
+.head_topic {
+    margin-bottom: 11px;
+    height: 49.67px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.topic_text {
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}

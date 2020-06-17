@@ -1,0 +1,99 @@
+﻿@model QBD.Models.signup_model
+@{
+    ViewBag.Title = "Sign Up";
+}
+
+
+<div class="container signup_c">
+
+    <div class="col-md-6">
+
+        <div class="div1">
+            <h3>Join the askme Comunity</h3>
+            <p>
+                <span><img src="~/Images/Icon_get.png"/></span>
+                Get unstack -- ask a question
+            </p>
+            <p>
+                <span><img src="~/Images/icon_save.png"/></span>
+                Save your favourite tags
+            </p>
+        </div>
+
+    </div>
+
+    <div class="col-md-6" style="margin-bottom:100px">
+        <div class="row form">
+
+            @using (Html.BeginForm("signup", "User", FormMethod.Post))
+            {
+
+            <div class="form-group">
+                <label class="label">Display name</label>
+                @Html.TextBoxFor(model => model.name, new { @class = "form-control f_input", type = "text", id = "name", maxlength = "30" })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "error" })
+            </div>
+
+                <div class="form-group">
+                    <label class="label">Email</label>
+                    @Html.TextBoxFor(model => model.email, new { @class = "form-control f_input", type = "email" })
+                    @Html.ValidationMessageFor(model => model.email, "", new { @class = "error" })
+                </div>
+
+                <div class="form-group">
+                    <label class="label">Password</label>
+                    @Html.TextBoxFor(model => model.password, new { @class = "form-control f_input", id = "password_n", type = "password", maxlength = "8" })
+                    @Html.ValidationMessageFor(model => model.password, "", new { @class = "error" })
+
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="password_t"  onclick="password_toggle()" />
+                    <label for="password_t">Show Password</label>
+
+                    <script>
+                        function password_toggle() {
+                            var x = document.getElementById("password_n");
+                            if (x.type === "password") {
+                                x.type = "text";
+                            }
+                            else {
+                                x.type = "password";
+                            }
+                        }
+                    </script>
+
+                </div>
+
+                <label class="password_alert">
+                    Passwords must contain at least eight characters
+                    including at least 1 letter and 1 number
+                </label>
+
+
+                <div class="form-group">
+
+                    <button class=" btn btn-success sign_up_btn">
+                        Sign up
+                    </button>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label class="terms">
+                        By clicking “Sign up” , you agree to our term of
+                        <a href="#">service</a>,<a href="#"> privacy  policy </a> and <a href="#">cookie policy</a>
+                    </label>
+
+                </div>
+            }
+
+
+        </div>
+
+
+
+    </div>
+
+</div>
+

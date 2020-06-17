@@ -1,0 +1,165 @@
+﻿@model QBD.Models.category
+@{
+    ViewBag.Title = "Ask a Question";
+}
+
+@if (Session["userID"] == null)
+{
+    <div class="container">
+        <div class="row">
+            <h4 class="text-center">@ViewBag.Title</h4>
+            <h4 class="text-center">You must be logged in to ask a question </h4>
+            <img class="center-block" src="~/Images/sample_ic.png" height="300" width="300" alt="login_icon" />
+            <h4 class="text-center">Please <a href="~/User/login"><b>Login</b></a>or <a href="~/User/signup"><b>Sign up</b></a>for a new account</h4>
+        </div>
+    </div>
+
+}
+
+else
+{
+
+    <div class="container">
+        <div class="row">
+            <h4 class="text-center">@ViewBag.Title</h4>
+        </div>
+        <div class="col-md-8">
+            <div class=" row">
+                <form id="ask_question_form">
+                    <div class="form-group">
+                        <label>Question Category</label>
+                        <select id="category_id" class="form-control">
+                            <option value="">Select your Question category</option>
+
+                            @foreach (var item in ViewBag.category_list)
+                            {
+                                <option value="@item.CategoryID">@item.CategoryName</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Question</label>
+                        <textarea rows="8" type="text" class="form-control" placeholder="Ask your question" maxlength="1000" style="max-width:80% !important;" id="question_text"></textarea>
+                        <div class="result">0 / 1000 chars</div>
+                    </div>
+                    <div class="form-group">
+                        <p><strong>You can only ask</strong> <br /> 1.how to download a software? <br /> 2.How to install a software? <br />
+                        3.How to activate a software? <br /> 4.how to use the software basic? <br /> 5.and How to uninstall
+                        a software</p>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" id="clearBtn" class="btn btn-primary ">
+                            Clear
+                        </button>
+
+                        <button type="button" id="submitBtn" class="btn btn-success">
+                            <span class="glyphicon glyphicon-edit">
+                                Submit
+                            </span>
+                        </button>
+                    </div>
+
+                </form>
+                <script type="text/javascript" src="~/Scripts/jquery-3.3.1.min.js"></script>
+                <script>
+
+                    $(document).ready(function () {
+                        $('textarea#question_text').on('keyup', function () {
+                            var charCount = $(this).val().length;
+                            $(".result").text(charCount + "/ 1000 chars");
+                        });
+
+                        $("#submitBtn").click(function () {
+
+                            if (!$("#category_id").val()) {
+                                alert("Please Select Question category");
+                            }
+                            else {
+                                if (!$("#question_text").val()) {
+                                    alert("Please add some question before submitting");
+                                }
+                                else {
+                                    post_question();
+                                }
+                            }
+
+                        });
+
+                        function post_question() {
+
+                            var category_id = $("#category_id").val();
+                            var question_text = $("#question_text").val();
+                            var userID = "@Session["userID"]";
+
+                            $.ajax({
+
+                                type: "POST",
+                                url: "/Home/ask_questions",
+                                data: {
+                                    category_id: category_id,
+                                    question_text: question_text,
+                                    userID: userID
+                                },
+                                success: function (response) {
+                                    alert(response);
+
+                                },
+                                complete: function () {
+                                    $("#question_text").val('');
+                                    $("#category_id").val('');
+
+                                    setInterval(location.reload());
+                                }
+                            });
+
+                        }
+
+
+                        $("#clearBtn").click(function () {
+                            $("#question_text").val('');
+                            $("#category_id").val('');
+                            $(".result").text("0 / 1000 chars");
+                        })
+
+                    });
+
+                </script>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row text-center" style="height:49.67px;border-radius:6px;border: 1px solid black">
+                <p style="font-size:15px;margin-top:14px">Category Count</p>
+            </div>
+            <div id="category_count" class="row" style="margin-top:10px">
+
+                <script>
+                    $(document).ready(function () {
+                        $.ajax({
+                            type: "GET",
+                            url: "/Home/question_count",
+                            contentType: "application/json;charset=utf-8",
+                            dataType: "json",
+                            success: function (result) {
+
+                                for (var i in result) {
+
+                                    $('#category_count').append('<p>' + '<a href=' + 'category?categoryID=' + result[i].CategoryID + '>' + result[i].CategoryName + '(' + result[i].Qcount + ')' + '</a >' + '</p>');
+
+                                }
+
+                            },
+                            error: function (response) {
+                                alert('error');
+                            }
+                        });
+                    });
+
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+}
+

@@ -1,0 +1,96 @@
+﻿@model QBD.Models.questions
+@{
+    ViewBag.Title = "Followed Question";
+}
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col-md-2">
+            <div id="desktop">
+                <h4 class="text-center">Question Category</h4>
+
+                @foreach (var item in ViewBag.category_list)
+                {
+                    <div class="well-sm">
+                        <a href="~/Home/category?categoryID=@item.CategoryID">@item.CategoryID.@item.CategoryName</a>
+                    </div>
+                }
+
+
+            </div>
+
+            <div id="mobile">
+                <div class="text-center head_topic">
+                    <p class="topic_text">Question Category</p>
+                </div>
+
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown" role="button" aria-expanded="false">Select Category</a>
+                        <ul class="dropdown-menu" role="menu">
+
+                            @foreach (var item in ViewBag.category_list)
+                            {
+                                <li> <a href="~/Home/category?categoryID=@item.CategoryID">@item.CategoryID.@item.CategoryName</a> </li>
+                            }
+
+                        </ul>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <div class="text-center head_topic">
+                <p class="topic_text">Saved Questions</p>
+            </div>
+
+            <div id="questions">
+
+                @if (Model != null)
+                {
+                    if (Model.questions_list.Count > 0)
+                    {
+                        foreach (var item in Model.questions_list)
+                        {
+                <div>
+                    <p style="color:#0077D6">@Html.DisplayFor(m => item.userName)</p>
+                    <p><a href="~/Home/questions?questionID=@Html.DisplayFor(m => item.QuestionID)">@Html.DisplayFor(m => item.Question)</a></p>
+                    <div style="width:300px">
+
+                        <a class="disabled">@Html.DisplayFor(m => item.answer_count) Answer</a>
+                        <a class="disabled">@Html.DisplayFor(m => item.follow) Follow</a>
+
+
+                    </div>
+                    <hr />
+                </div>
+                        }
+                    }
+                }
+            </div>
+
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="text-center head_topic">
+                <p class="topic_text">Recent Activity</p>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+

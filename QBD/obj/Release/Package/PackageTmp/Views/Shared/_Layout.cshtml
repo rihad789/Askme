@@ -1,0 +1,78 @@
+﻿@model QBD.Models.questions
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Askme-@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" style="background-color:#3FFFCF" >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Askme", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Ask a Question", "ask_questions", "Home")</li>
+                </ul>
+
+                <form class="navbar-form navbar-left" action="~/Home/search_question">
+                    <div class="form-group">
+                        @Html.TextBoxFor(model => model.search_text, new { @class = "form-control", type = "text", style = "width:300px",placeholder= "Search" })
+                    </div>
+                    <button type="submit" id="search_button" class="btn btn-default">Search</button>
+
+                </form>
+
+                <ul class="nav navbar-nav navbar-right">
+                    @if (Session["DisplayName"] != null && Session["userID"] != null)
+                    {
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>Profile</a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a class="disabled">@Session["DisplayName"]</a></li>
+                                <li><a href="~/Home/followed_question?userID=@Session["userID"]">Followed Question</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="~/User/Logout"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="~/User/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="~/User/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    }
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid body-content" style="margin-top:20px;margin-bottom:50px">
+        @RenderBody()
+    </div>
+
+    <div class="text-center navbar-fixed-bottom" style="height:49.67px;background-color:#3FFFCF">
+        <p style="font-size:15px;padding-top:15px">&copy; @DateTime.Now.Year - Askme Company Ltd.</p>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>
